@@ -2,6 +2,8 @@
 
 This script uses the Cutt.ly API to shorten links
 
+-Side note: Need to sign up to cutt.ly to get your api key to use in your .env file.
+
 ## Setup
 Install Pip if not already installed
 
