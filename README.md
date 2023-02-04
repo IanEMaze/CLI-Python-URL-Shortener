@@ -3,9 +3,33 @@
 This script uses the Cutt.ly API to shorten links
 
 ## Setup
-* Sign up to cutt.ly to generate your own api key
-* set up .env file
-* Install Typer
+Install Pip if not already installed
+
+Download:
+```bash
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+```
+Install:
+```bash
+python get-pip.py
+```
+
+Install Poetry
+```bash
+pip install poetry
+```
+
+## Installation
+
+After cloning the repo, run the following command to install dependencies
+```bash
+poetry install
+```
+And to activate the environment 
+```bash
+poetry shell
+```
+
 
 ## Run Code
 ```bash
